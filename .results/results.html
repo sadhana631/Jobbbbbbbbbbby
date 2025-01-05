@@ -1,0 +1,2462 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 5,
+  &quot;numFailedTests&quot;: 117,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 0,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 5,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 5,
+  &quot;numTotalTests&quot;: 117,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1736058448928,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;failureMessage&quot;: &quot;  ● Test suite failed to run\n\n    Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;\n\n    Require stack:\n      src/App.js\n      src/__tests__/Jobs.js\n\n      1 | import {Route, Switch, Reduce} from &#x27;react-router-dom&#x27;\n      2 |\n    &gt; 3 | import LoginForm from &#x27;./components/LoginForm&#x27;\n        | ^\n      4 | import ProtectedRoute from &#x27;./components/ProtectedRoute&#x27;\n      5 | import Home from &#x27;./components/Home&#x27;\n      6 | import Jobs from &#x27;./components/jobs&#x27;\n\n      at Resolver.resolveModule (node_modules/.pnpm/jest-resolve@26.6.2/node_modules/jest-resolve/build/index.js:306:11)\n      at Object.&lt;anonymous&gt; (src/App.js:3:1)\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 42,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 0,
+        &quot;runtime&quot;: 0,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 0
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;,
+        &quot;hint&quot;: &quot;&quot;,
+        &quot;requireStack&quot;: [
+          &quot;/tmp/RJSCPAW11J/src/App.js&quot;,
+          &quot;/tmp/RJSCPAW11J/src/__tests__/Jobs.js&quot;
+        ],
+        &quot;siblingWithSimilarExtensionFound&quot;: false,
+        &quot;moduleName&quot;: &quot;./components/LoginForm&quot;,
+        &quot;_originalMessage&quot;: &quot;Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;&quot;
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPAW11J/src/__tests__/Jobs.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Page should consist of at least two HTML list items, jobs list received from the response and the provided employmentTypesList, salaryRangesList should be rendered using a unique key as a prop for each employment type item, salary range item and job item respectively&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Page should consist of at least two HTML list items, jobs list received from the response and the provided employmentTypesList, salaryRangesList should be rendered using a unique key as a prop for each employment type item, salary range item and job item respectively&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_51&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When \&quot;/jobs\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/jobs\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_52&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When \&quot;/jobs\&quot; is provided in the URL path by an authenticated user, then the page should be navigated to the Jobs Route and should consist of an HTML main heading element with text content as \&quot;Type of Employment\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/jobs\&quot; is provided in the URL path by an authenticated user, then the page should be navigated to the Jobs Route and should consist of an HTML main heading element with text content as \&quot;Type of Employment\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_53&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as given website logo image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as given website logo image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_54&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of an HTML input element with type attribute value as \&quot;search\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of an HTML input element with type attribute value as \&quot;search\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_55&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of an HTML button element with data-testid attribute value as \&quot;searchButton\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of an HTML button element with data-testid attribute value as \&quot;searchButton\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_56&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of an HTML main heading element with text content as \&quot;Type of Employment\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of an HTML main heading element with text content as \&quot;Type of Employment\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_57&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of HTML checkboxes with label text as the values of the key \&quot;label\&quot; from employmentTypesList provided&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of HTML checkboxes with label text as the values of the key \&quot;label\&quot; from employmentTypesList provided&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_58&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of an HTML main heading element with text content as \&quot;Salary Range\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of an HTML main heading element with text content as \&quot;Salary Range\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_59&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests Jobs Route should consist of HTML radio buttons and label text as the values of the key \&quot;label\&quot; from salaryRangesList provided&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Jobs Route should consist of HTML radio buttons and label text as the values of the key \&quot;label\&quot; from salaryRangesList provided&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_60&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the Jobs Route is opened, it should initially consist of HTML container elements with data-testid attribute value as \&quot;loader\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Jobs Route is opened, it should initially consist of HTML container elements with data-testid attribute value as \&quot;loader\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_61&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the Jobs Route is opened, an HTTP GET request should be made to the given Profile API URL to display the profile details&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Jobs Route is opened, an HTTP GET request should be made to the given Profile API URL to display the profile details&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_62&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the Jobs Route is opened, an HTTP GET request should be made to the given Jobs API URL to display the list of jobs&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Jobs Route is opened, an HTTP GET request should be made to the given Jobs API URL to display the list of jobs&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_63&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the Jobs Route is opened, an HTTP GET request should be made to the given Jobs API URL with all the query parameters and their initial values as empty strings&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Jobs Route is opened, an HTTP GET request should be made to the given Jobs API URL with all the query parameters and their initial values as empty strings&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_64&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of at least four HTML unordered list elements to display nav items, jobs received from the response, employmentTypes and salaryRanges&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of at least four HTML unordered list elements to display nav items, jobs received from the response, employmentTypes and salaryRanges&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_65&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML image element with alt attribute value as \&quot;profile\&quot; and src as the value of key \&quot;profile_image_url\&quot; received from the profile response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML image element with alt attribute value as \&quot;profile\&quot; and src as the value of key \&quot;profile_image_url\&quot; received from the profile response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_66&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML main heading element with text content as the values of the key \&quot;name\&quot; received from the profile response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML main heading element with text content as the values of the key \&quot;name\&quot; received from the profile response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_67&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML paragraph element with text content as the values of the key \&quot;short_bio\&quot; received from the profile response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML paragraph element with text content as the values of the key \&quot;short_bio\&quot; received from the profile response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_68&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML image elements with alt attribute value as \&quot;company logo\&quot; and src as the values of key \&quot;company_logo_url\&quot; received from the jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML image elements with alt attribute value as \&quot;company logo\&quot; and src as the values of key \&quot;company_logo_url\&quot; received from the jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_69&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML main heading elements with text content as the values of the key \&quot;title\&quot; received from the jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML main heading elements with text content as the values of the key \&quot;title\&quot; received from the jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_70&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;rating\&quot; received from the jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;rating\&quot; received from the jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_71&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;location\&quot; received from the jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;location\&quot; received from the jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_72&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;employment_type\&quot; received from the jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;employment_type\&quot; received from the jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_73&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML main heading elements with text content as the \&quot;Description\&quot; based on the received jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML main heading elements with text content as the \&quot;Description\&quot; based on the received jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_74&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;job_description\&quot; received from the jobs response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;job_description\&quot; received from the jobs response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_75&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When a value is provided in the HTML input element for search and search icon button is clicked, an HTTP GET request should be made with the value provided in the search input element as the value to query parameter \&quot;search\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a value is provided in the HTML input element for search and search icon button is clicked, an HTTP GET request should be made with the value provided in the search input element as the value to query parameter \&quot;search\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_76&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When employment types are selected, an HTTP GET request should be made with the ids of the employment types as a single string separated by \&quot;,\&quot; as value to query parameter \&quot;employment_type\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When employment types are selected, an HTTP GET request should be made with the ids of the employment types as a single string separated by \&quot;,\&quot; as value to query parameter \&quot;employment_type\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_77&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When a salary range is clicked, an HTTP GET request should be made with the id of the salaryRange as value to query parameter \&quot;minimum_package\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a salary range is clicked, an HTTP GET request should be made with the id of the salaryRange as value to query parameter \&quot;minimum_package\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_78&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When all filters are used, an HTTP GET request should be made to jobsApiUrl with all the query parameters and their values&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When all filters are used, an HTTP GET request should be made to jobsApiUrl with all the query parameters and their values&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_79&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When a Job Item is clicked in Jobs Route, then the page should be navigated to the Job Item Details route with \&quot;/jobs/:id\&quot; as the URL path&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a Job Item is clicked in Jobs Route, then the page should be navigated to the Job Item Details route with \&quot;/jobs/:id\&quot; as the URL path&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_80&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of the HTML image element with alt attribute value as \&quot;no jobs\&quot; and src as the given no jobs view image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of the HTML image element with alt attribute value as \&quot;no jobs\&quot; and src as the given no jobs view image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_81&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of an HTML main heading element with text content as \&quot;No Jobs Found\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of an HTML main heading element with text content as \&quot;No Jobs Found\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_82&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of an HTML paragraph element with text content as \&quot;We could not find any jobs. Try other filters\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of an HTML paragraph element with text content as \&quot;We could not find any jobs. Try other filters\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_83&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Profile API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML button element with text content as the \&quot;Retry\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Profile API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML button element with text content as the \&quot;Retry\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_84&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML image element with alt as \&quot;failure view\&quot; and src as the given failure view image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML image element with alt as \&quot;failure view\&quot; and src as the given failure view image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_85&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML main heading element with text content as \&quot;Oops! Something Went Wrong\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML main heading element with text content as \&quot;Oops! Something Went Wrong\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_86&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML paragraph element with text content as \&quot;We cannot seem to find the page you are looking for\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML paragraph element with text content as \&quot;We cannot seem to find the page you are looking for\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_87&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML button element with text content as the \&quot;Retry\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML button element with text content as the \&quot;Retry\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_88&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Profile API URL in the Jobs Route is unsuccessful and the \&quot;Retry\&quot; button is clicked, then an HTTP GET request should be made to the given Profile API URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Profile API URL in the Jobs Route is unsuccessful and the \&quot;Retry\&quot; button is clicked, then an HTTP GET request should be made to the given Profile API URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_89&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful and the \&quot;Retry\&quot; button is clicked, then an HTTP GET request should be made to the given Jobs API URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful and the \&quot;Retry\&quot; button is clicked, then an HTTP GET request should be made to the given Jobs API URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_90&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the website logo in the Header is clicked, then the page should be navigated to Home Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the website logo in the Header is clicked, then the page should be navigated to Home Route&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_91&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Jobs Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Jobs Route tests When the Home link in the Header is clicked, then the page should be navigated to Home Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Home link in the Header is clicked, then the page should be navigated to Home Route&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_92&quot;
+        }
+      ]
+    },
+    {
+      &quot;failureMessage&quot;: &quot;  ● Test suite failed to run\n\n    Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;\n\n    Require stack:\n      src/App.js\n      src/__tests__/JobItemDetails.js\n\n      1 | import {Route, Switch, Reduce} from &#x27;react-router-dom&#x27;\n      2 |\n    &gt; 3 | import LoginForm from &#x27;./components/LoginForm&#x27;\n        | ^\n      4 | import ProtectedRoute from &#x27;./components/ProtectedRoute&#x27;\n      5 | import Home from &#x27;./components/Home&#x27;\n      6 | import Jobs from &#x27;./components/jobs&#x27;\n\n      at Resolver.resolveModule (node_modules/.pnpm/jest-resolve@26.6.2/node_modules/jest-resolve/build/index.js:306:11)\n      at Object.&lt;anonymous&gt; (src/App.js:3:1)\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 32,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 0,
+        &quot;runtime&quot;: 0,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 0
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;,
+        &quot;hint&quot;: &quot;&quot;,
+        &quot;requireStack&quot;: [
+          &quot;/tmp/RJSCPAW11J/src/App.js&quot;,
+          &quot;/tmp/RJSCPAW11J/src/__tests__/JobItemDetails.js&quot;
+        ],
+        &quot;siblingWithSimilarExtensionFound&quot;: false,
+        &quot;moduleName&quot;: &quot;./components/LoginForm&quot;,
+        &quot;_originalMessage&quot;: &quot;Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;&quot;
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPAW11J/src/__tests__/JobItemDetails.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least two HTML list items and the skills list and similar jobs list received from the response should be rendered using a unique key as a prop to display each skill and similar job respectively&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least two HTML list items and the skills list and similar jobs list received from the response should be rendered using a unique key as a prop to display each skill and similar job respectively&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_19&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When \&quot;/jobs/:id\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/jobs/:id\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_20&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests Job Item Details Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as the given website logo image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Job Item Details Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as the given website logo image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_21&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the Job Item Details Route is opened, it should initially consist of an HTML container element with data-testid attribute value as \&quot;loader\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Job Item Details Route is opened, it should initially consist of an HTML container element with data-testid attribute value as \&quot;loader\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_22&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the Job Item Details Route is opened, an HTTP GET request should be made to the given Job Details API URL with the job id as the path parameter&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Job Item Details Route is opened, an HTTP GET request should be made to the given Job Details API URL with the job id as the path parameter&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_23&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with alt attribute value as \&quot;job details company logo\&quot; and src as the value of key \&quot;company_logo_url\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with alt attribute value as \&quot;job details company logo\&quot; and src as the value of key \&quot;company_logo_url\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_24&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with text content as the value of the key \&quot;title\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with text content as the value of the key \&quot;title\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_25&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;rating\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;rating\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_26&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;location\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;location\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_27&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;employment_type\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;employment_type\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_28&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;package_per_annum\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;package_per_annum\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_29&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least four HTML main heading elements with text content as \&quot;Description\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least four HTML main heading elements with text content as \&quot;Description\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_30&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;job_description\&quot; in job_details received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;job_description\&quot; in job_details received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_31&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML anchor element with href attribute value of the key \&quot;company_website_url\&quot; and text content as \&quot;Visit\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML anchor element with href attribute value of the key \&quot;company_website_url\&quot; and text content as \&quot;Visit\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_32&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \&quot;Skills\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \&quot;Skills\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_33&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least three HTML unordered list elements to display nav item, skills and similar jobs received from the response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least three HTML unordered list elements to display nav item, skills and similar jobs received from the response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_34&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML image elements with alt attribute value as the values of the key \&quot;name\&quot; and src as the values of the key \&quot;image_url\&quot; in the \&quot;skills\&quot; list received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML image elements with alt attribute value as the values of the key \&quot;name\&quot; and src as the values of the key \&quot;image_url\&quot; in the \&quot;skills\&quot; list received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_35&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \&quot;Life at Company\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \&quot;Life at Company\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_36&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;description\&quot; in \&quot;life_at_company\&quot; from job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \&quot;description\&quot; in \&quot;life_at_company\&quot; from job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_37&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with alt attribute value as \&quot;life at company\&quot; and src as the value of the key \&quot;image_url\&quot; in \&quot;life_at_company\&quot; from job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with alt attribute value as \&quot;life at company\&quot; and src as the value of the key \&quot;image_url\&quot; in \&quot;life_at_company\&quot; from job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_38&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \&quot;Similar Jobs\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \&quot;Similar Jobs\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_39&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML image elements with alt attribute value as \&quot;similar job company logo\&quot; and src as the values of the key \&quot;company_logo_url\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML image elements with alt attribute value as \&quot;similar job company logo\&quot; and src as the values of the key \&quot;company_logo_url\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_40&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML main heading elements with text content as the values of the key \&quot;title\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML main heading elements with text content as the values of the key \&quot;title\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_41&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;rating\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the values of the key \&quot;rating\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_42&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;location\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;location\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_43&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;employment_type\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;employment_type\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_44&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;job_description\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \&quot;job_description\&quot; in similar_jobs received from the job details response&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_45&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \&quot;failure view\&quot; and src as the given failure view image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \&quot;failure view\&quot; and src as the given failure view image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_46&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML main heading element with text content as \&quot;Oops! Something Went Wrong\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML main heading element with text content as \&quot;Oops! Something Went Wrong\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_47&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \&quot;We cannot seem to find the page you are looking for\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \&quot;We cannot seem to find the page you are looking for\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_48&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML button element with text content as \&quot;Retry\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML button element with text content as \&quot;Retry\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_49&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Job Item Details Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Job Item Details Route tests When the HTTP GET request in the Job Item Details Route is unsuccessful and the \&quot;Retry\&quot; button is clicked, then an HTTP GET request should be made to the given Job Details API URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the HTTP GET request in the Job Item Details Route is unsuccessful and the \&quot;Retry\&quot; button is clicked, then an HTTP GET request should be made to the given Job Details API URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_50&quot;
+        }
+      ]
+    },
+    {
+      &quot;failureMessage&quot;: &quot;  ● Test suite failed to run\n\n    Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;\n\n    Require stack:\n      src/App.js\n      src/__tests__/Login.js\n\n      1 | import {Route, Switch, Reduce} from &#x27;react-router-dom&#x27;\n      2 |\n    &gt; 3 | import LoginForm from &#x27;./components/LoginForm&#x27;\n        | ^\n      4 | import ProtectedRoute from &#x27;./components/ProtectedRoute&#x27;\n      5 | import Home from &#x27;./components/Home&#x27;\n      6 | import Jobs from &#x27;./components/jobs&#x27;\n\n      at Resolver.resolveModule (node_modules/.pnpm/jest-resolve@26.6.2/node_modules/jest-resolve/build/index.js:306:11)\n      at Object.&lt;anonymous&gt; (src/App.js:3:1)\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 22,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 0,
+        &quot;runtime&quot;: 0,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 0
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;,
+        &quot;hint&quot;: &quot;&quot;,
+        &quot;requireStack&quot;: [
+          &quot;/tmp/RJSCPAW11J/src/App.js&quot;,
+          &quot;/tmp/RJSCPAW11J/src/__tests__/Login.js&quot;
+        ],
+        &quot;siblingWithSimilarExtensionFound&quot;: false,
+        &quot;moduleName&quot;: &quot;./components/LoginForm&quot;,
+        &quot;_originalMessage&quot;: &quot;Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;&quot;
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPAW11J/src/__tests__/Login.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When \&quot;/login\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/login\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_93&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When \&quot;/login\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;Find The Job That Fits Your Life\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/login\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;Find The Job That Fits Your Life\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_94&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML form element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML form element&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_95&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML image element with alt attribute \&quot;website logo\&quot; and src as the given website logo image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML image element with alt attribute \&quot;website logo\&quot; and src as the given website logo image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_96&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_97&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot; and type attribute value as \&quot;text\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML input element with label text as \&quot;USERNAME\&quot; and type attribute value as \&quot;text\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_98&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML input element with label text as \&quot;PASSWORD\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML input element with label text as \&quot;PASSWORD\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_99&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML input element with label text as \&quot;PASSWORD\&quot; and type attribute value as \&quot;password\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML input element with label text as \&quot;PASSWORD\&quot; and type attribute value as \&quot;password\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_100&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests Login Route should consist of an HTML button element with text content as \&quot;Login\&quot; and type attribute value as \&quot;submit\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Login Route should consist of an HTML button element with text content as \&quot;Login\&quot; and type attribute value as \&quot;submit\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_101&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When a non-empty value is provided in the HTML input element with the label text as \&quot;USERNAME\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a non-empty value is provided in the HTML input element with the label text as \&quot;USERNAME\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_102&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When a non-empty value is provided in the HTML input element with the label text as \&quot;PASSWORD\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a non-empty value is provided in the HTML input element with the label text as \&quot;PASSWORD\&quot;, then the value provided should be displayed in the HTML input element&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_103&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to the given Login API URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to the given Login API URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_104&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to the given Login API URL with request object containing the keys \&quot;username\&quot; and \&quot;password\&quot; with the values provided respectively&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to the given Login API URL with request object containing the keys \&quot;username\&quot; and \&quot;password\&quot; with the values provided respectively&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_105&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_106&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests when a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_107&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests when a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_108&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests when invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_109&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests when an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_110&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests when a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;when a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_111&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \&quot;jwt_token\&quot; string as the first argument, JWT token value as the second argument, and expiry days as the third argument&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \&quot;jwt_token\&quot; string as the first argument, JWT token value as the second argument, and expiry days as the third argument&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_112&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When valid username and password are provided and the Login button is clicked, then the history.replace() method should be called with the argument \&quot;/\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When valid username and password are provided and the Login button is clicked, then the history.replace() method should be called with the argument \&quot;/\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_113&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Login Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Login Route Tests When valid username and password are provided and the login button is clicked, then the page should be navigated to the Home Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When valid username and password are provided and the login button is clicked, then the page should be navigated to the Home Route&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_114&quot;
+        }
+      ]
+    },
+    {
+      &quot;failureMessage&quot;: &quot;  ● Test suite failed to run\n\n    Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;\n\n    Require stack:\n      src/App.js\n      src/__tests__/Home.js\n\n      1 | import {Route, Switch, Reduce} from &#x27;react-router-dom&#x27;\n      2 |\n    &gt; 3 | import LoginForm from &#x27;./components/LoginForm&#x27;\n        | ^\n      4 | import ProtectedRoute from &#x27;./components/ProtectedRoute&#x27;\n      5 | import Home from &#x27;./components/Home&#x27;\n      6 | import Jobs from &#x27;./components/jobs&#x27;\n\n      at Resolver.resolveModule (node_modules/.pnpm/jest-resolve@26.6.2/node_modules/jest-resolve/build/index.js:306:11)\n      at Object.&lt;anonymous&gt; (src/App.js:3:1)\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 18,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 0,
+        &quot;runtime&quot;: 0,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 0
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;,
+        &quot;hint&quot;: &quot;&quot;,
+        &quot;requireStack&quot;: [
+          &quot;/tmp/RJSCPAW11J/src/App.js&quot;,
+          &quot;/tmp/RJSCPAW11J/src/__tests__/Home.js&quot;
+        ],
+        &quot;siblingWithSimilarExtensionFound&quot;: false,
+        &quot;moduleName&quot;: &quot;./components/LoginForm&quot;,
+        &quot;_originalMessage&quot;: &quot;Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;&quot;
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPAW11J/src/__tests__/Home.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When \&quot;/\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/\&quot; is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \&quot;Login\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When \&quot;/\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;Find The Job That Fits Your Life\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When \&quot;/\&quot; is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \&quot;Find The Job That Fits Your Life\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as the given website logo image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as the given website logo image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as the given website logo image URL is wrapped with Link from react-router-dom&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML image element with alt attribute value as \&quot;website logo\&quot; and src as the given website logo image URL is wrapped with Link from react-router-dom&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of at least one HTML unordered list element to display the list of nav items in the Header&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of at least one HTML unordered list element to display the list of nav items in the Header&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of at least three HTML list elements to display the nav items in the Header&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of at least three HTML list elements to display the nav items in the Header&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of a Link from react-router-dom with text content as \&quot;Home\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of a Link from react-router-dom with text content as \&quot;Home\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of a Link from react-router-dom with text content as \&quot;Jobs\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of a Link from react-router-dom with text content as \&quot;Jobs\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML button element with text content as \&quot;Logout\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML button element with text content as \&quot;Logout\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML main heading element with text content as \&quot;Find The Job That Fits Your Life\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML main heading element with text content as \&quot;Find The Job That Fits Your Life\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML paragraph element with text content starting with \&quot;Millions of people are searching for jobs\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML paragraph element with text content starting with \&quot;Millions of people are searching for jobs\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML button element with text content as \&quot;Find Jobs\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML button element with text content as \&quot;Find Jobs\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests Home Route should consist of an HTML button element with text content as \&quot;Find Jobs\&quot; is wrapped with Link from react-router-dom&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Home Route should consist of an HTML button element with text content as \&quot;Find Jobs\&quot; is wrapped with Link from react-router-dom&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When the Find Jobs button in the Home Route is clicked, then the page should be navigated to Jobs Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Find Jobs button in the Home Route is clicked, then the page should be navigated to Jobs Route&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_14&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When the Jobs link in the Header is clicked, then the page should be navigated to Jobs Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Jobs link in the Header is clicked, then the page should be navigated to Jobs Route&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_15&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When the Logout button in the Header is clicked, then the Cookies.remove() method should be called with the argument as \&quot;jwt_token\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Logout button in the Header is clicked, then the Cookies.remove() method should be called with the argument as \&quot;jwt_token\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_16&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When the Logout button in the Header is clicked, the history.replace() method should be called with the argument as \&quot;/login\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Logout button in the Header is clicked, the history.replace() method should be called with the argument as \&quot;/login\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_17&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Home Route Tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Home Route Tests When the Logout button in the Header is clicked, then the page should be navigated to the Login Route&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When the Logout button in the Header is clicked, then the page should be navigated to the Login Route&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_18&quot;
+        }
+      ]
+    },
+    {
+      &quot;failureMessage&quot;: &quot;  ● Test suite failed to run\n\n    Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;\n\n    Require stack:\n      src/App.js\n      src/__tests__/NotFound.js\n\n      1 | import {Route, Switch, Reduce} from &#x27;react-router-dom&#x27;\n      2 |\n    &gt; 3 | import LoginForm from &#x27;./components/LoginForm&#x27;\n        | ^\n      4 | import ProtectedRoute from &#x27;./components/ProtectedRoute&#x27;\n      5 | import Home from &#x27;./components/Home&#x27;\n      6 | import Jobs from &#x27;./components/jobs&#x27;\n\n      at Resolver.resolveModule (node_modules/.pnpm/jest-resolve@26.6.2/node_modules/jest-resolve/build/index.js:306:11)\n      at Object.&lt;anonymous&gt; (src/App.js:3:1)\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 3,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 0,
+        &quot;runtime&quot;: 0,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 0
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;code&quot;: &quot;MODULE_NOT_FOUND&quot;,
+        &quot;hint&quot;: &quot;&quot;,
+        &quot;requireStack&quot;: [
+          &quot;/tmp/RJSCPAW11J/src/App.js&quot;,
+          &quot;/tmp/RJSCPAW11J/src/__tests__/NotFound.js&quot;
+        ],
+        &quot;siblingWithSimilarExtensionFound&quot;: false,
+        &quot;moduleName&quot;: &quot;./components/LoginForm&quot;,
+        &quot;_originalMessage&quot;: &quot;Cannot find module &#x27;./components/LoginForm&#x27; from &#x27;src/App.js&#x27;&quot;
+      },
+      &quot;testFilePath&quot;: &quot;/tmp/RJSCPAW11J/src/__tests__/NotFound.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Not Found Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Not Found Route tests When a random path is provided as the URL path, then the page should be navigated to the Not Found Route and should consist of an HTML image element with alt attribute value as \&quot;not found\&quot; and src as the given not found image URL&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a random path is provided as the URL path, then the page should be navigated to the Not Found Route and should consist of an HTML image element with alt attribute value as \&quot;not found\&quot; and src as the given not found image URL&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_115&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Not Found Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Not Found Route tests When a random path is provided as the URL path, then the page should consist of an HTML main heading element with text content as \&quot;Page Not Found\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a random path is provided as the URL path, then the page should consist of an HTML main heading element with text content as \&quot;Page Not Found\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_116&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Not Found Route tests&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            &quot;&quot;
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;&quot;
+          ],
+          &quot;fullName&quot;: &quot;Not Found Route tests When a random path is provided as the URL path, then the page should consist of an HTML paragraph element with text content as \&quot;We are sorry, the page you requested could not be found\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a random path is provided as the URL path, then the page should consist of an HTML paragraph element with text content as \&quot;We are sorry, the page you requested could not be found\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCPAW11J_TEST_117&quot;
+        }
+      ]
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
