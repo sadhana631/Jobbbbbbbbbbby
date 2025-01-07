@@ -47,46 +47,46 @@ class Login extends Component {
     const {username, password, showSubmitError, errorMsg} = this.state
     const token = Cookies.get('jwt_token')
     if ((token = undefined)) {
-      return <Redirect to="/" />
+      return <Redirect to='/' />
     }
     return (
-      <div className="Login-container">
-        <form className="form-container" onSubmit={this.submitForm}>
+      <div className='Login-container'>
+        <form className='form-container' onSubmit={this.submitForm}>
           <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            className="login-website-logo"
-            alt="website logo"
+            src='https://assets.ccbp.in/frontend/react-js/logo-img.png'
+            className='login-website-logo'
+            alt='website logo'
           />
-          <div className="input-container">
-            <label className="input-label" htmlFor="username">
+          <div className='input-container'>
+            <label className='input-label' htmlFor='username'>
               USERNAME
             </label>
             <input
-              type="text"
-              id="username"
+              type='text'
+              id='username'
               value={username}
-              className="username-input-field"
+              className='username-input-field'
               onChange={this.onChangeUserName}
-              placeholder="Username"
+              placeholder='Username'
             />
           </div>
-          <div className="input-container">
-            <label className="input-label" htmlFor="password">
+          <div className='input-container'>
+            <label className='input-label' htmlFor='password'>
               PASSWORD
             </label>
             <input
-              type="password"
-              id="password"
+              type='password'
+              id='password'
               value={password}
-              className="password-input-field"
+              className='password-input-field'
               onChange={this.onChangePassword}
-              placeholder="Password"
+              placeholder='Password'
             />
           </div>
-          <button type="submit" className="login-button">
+          <button type='submit' className='login-button'>
             Login
           </button>
-          {showSubmitError && <p className="error-message">*{errorMsg}</p>}
+          {showSubmitError && <p className='error-message'>*{errorMsg}</p>}
         </form>
       </div>
     )
