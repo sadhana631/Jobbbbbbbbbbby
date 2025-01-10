@@ -18,10 +18,10 @@ const apiStatusConstants = {
   inProgress: 'IN_PROGRESS',
 }
 
-class JobItemDetails extends Component {
+class JobItemDetailsRoute extends Component {
   state = {
     jobsData: {},
-    SimilarJobData: [],
+    SimilarJobsData: [],
     apiStatus: apiStatusConstants.initial,
   }
 
@@ -244,4 +244,4 @@ class JobItemDetails extends Component {
     )
   }
 }
-export default JobItemDetailsReport
+export default JobItemDetailsRoute
